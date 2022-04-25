@@ -82,7 +82,7 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if(num < 90){
-    return true:
+    return true;
   }
   return false;
 }
@@ -198,14 +198,14 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  
+  return lado * lado;
 }
 
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-
+return (base * altura)/2;
 }
 
 
@@ -223,6 +223,16 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
+  if(esVocal.length !== 1){
+    return 'Dato incorrecto';
+  }
+    if(esVocal === 'a'||'e'||'i'||'o'||'u'){
+      return 'Es vocal';
+  }
+  else{
+    return 'Dato incorrecto';
+  }
+
   
 }
 
