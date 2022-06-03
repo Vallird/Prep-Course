@@ -10,6 +10,12 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
+  var vec=[];
+  for(var i in objeto){
+    vec[i] = objeto;
+    console.log (vec[i]);
+  }
+  
 }
 
 
